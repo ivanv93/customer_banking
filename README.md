@@ -1,4 +1,9 @@
 # Customer_Banking
 For this challenge, I was provided code for an Account class with methods for setting the balance of an account and the interest of an account. I was tasked with importing code from the Account.py file in order to create an instance the "Account" class and passed it in the code for cd_account.py and savings_account.py. Then, in the customer_banking.py file I was tasked with importing functions from the 2 previous files in order to allow the user to set the balance, interest rate, and months for the savings account and CD account. Lastly, the user is able to print out the interest earned and updated account balances with the interest earned for the amount of months they chose. I was provided assistance from Sean Morey, the instructor of the class. The BCS Xpert Learning Assistant was also a big help.
 
-*
+* First, I imported the "Account" class from the Account.py file into the savings_account.py and cd_account.py files using "from" and "import".
+* In each of the 2 files I created instances of the "Account" class and passed in the parameters to calculate the interest earned for each the savings account and CD, and then added the interest earned to each account type balance.
+* I then used the set balance method to pass the updated balance and the set interest method to pass the interest earned for each of the account types.
+* The updated balance and interest earned variables are then returned so the "create_savings_account" and "create_cd_account" functions can be imported into the customer_banking.py file.
+* There I set the "main" function to allow the user to set the balance, interest rate, and months for a savings account and a CD.
+* Lastly the user is able to print out the interest earned and updated account balance with interest earned for the given amount of months for each the savings account and CD, by calling the main function.
